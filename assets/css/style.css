@@ -330,3 +330,21 @@ header.intro img,
 .text-img p {
   max-width: 52ch;
 }
+
+.fringe-artists {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-block: 1rem;
+}
+
+.fringe-artist {
+  flex: 1 1 20rem;
+}
+
+.fringe-artist img {
+  width: 100%;
+  height: auto;
+  box-shadow: var(--shadow-elevation-medium);
+}
